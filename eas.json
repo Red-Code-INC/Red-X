@@ -1,22 +1,10 @@
 {
   "build": {
-    "development": {
-      "android": {
-        "releaseChannel": "dev",
-        "buildType": "apk"
-      },
+    "preview": {
       "ios": {
-        "releaseChannel": "dev"
+        "simulator": true
       }
     },
-    "production": {
-      "android": {
-        "releaseChannel": "production",
-        "buildType": "aab"
-      },
-      "ios": {
-        "releaseChannel": "production"
-      }
-    }
+    "production": {}
   }
 }
