@@ -32,7 +32,7 @@
     "@expo/metro-runtime": "~4.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "expo": "^45.0.0"
   },
   "private": true
 }
