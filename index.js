@@ -7,5 +7,5 @@ AppRegistry.registerComponent('main', () => App);
 // Run the application
 AppRegistry.runApplication('main', {
   initialProps: {},  // You can pass initial props if needed
-  rootTag: document.getElementById('app-root'),  // This ensures the app is attached to the DOM
+  rootTag: document.getElementById('root'),  // This ensures the app is attached to the DOM
 });
