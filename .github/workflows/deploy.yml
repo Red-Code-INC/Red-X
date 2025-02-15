@@ -27,6 +27,16 @@ jobs:
       - name: Build project for web
         run: expo export --platform web
 
+      - name: List dist folder contents
+        run: |
+          echo "Contents of dist folder:"
+          ls -l ./dist
+
+      - name: Show index.html content
+        run: |
+          echo "Contents of index.html:"
+          cat ./dist/index.html
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
         with:
