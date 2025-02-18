@@ -28,7 +28,7 @@ const HeaderTitle = ({ title,hasTitle=false }) => {
   return (
     <View style={styles.headerContainer}>
       <TouchableOpacity onPress={() => navigation.navigate("Home")}>
-        <Image source={require('./assets/icon.png')} style={styles.headerIcon} />
+        <Image source={{uri: 'https://red-code-inc.github.io/Red-Vault/logos/red-x/Red-X-Logo-2.png'}} style={styles.headerIcon} />
       </TouchableOpacity>
       
       <Text style={[styles.headerTitle,{fontFamily: Font()}]}>Red X {atitle}</Text>
