@@ -1,12 +1,11 @@
 {
+  "name":"RedX",
+  "version":"vAlpha-1.2.0",
+  "description":"",
   "license": "0BSD",
   "main": "index.js",
   "scripts": {
-    "start": "npx expo start",
-    "android": "npx expo start --android",
-    "ios": "npx expo start --ios",
-    "web": "npx expo start --web",
-    "build:web": "npx expo export --platform web --public-url https://redx-web.netlify.app"
+    "test":"echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "expo": "~52.0.32",
@@ -29,9 +28,5 @@
     "react-native-web": "~0.19.13",
     "react-dom": "18.3.1",
     "@expo/metro-runtime": "~4.0.1"
-  },
-  "devDependencies": {
-    "@expo/cli": "^0.11.0"
-  },
-  "private": true
+  }
 }
