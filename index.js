@@ -1,4 +1,4 @@
-import { AppRegistry } from './react-native-web';  // For web compatibility
+import { AppRegistry } from './react-native';  // For web compatibility
 import App from './App.web';
 
 // Register the app to run on the web
