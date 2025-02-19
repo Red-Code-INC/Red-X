@@ -3,7 +3,7 @@
   "version":"vAlpha-1.2.0",
   "description":"",
   "license": "0BSD",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test":"echo \"Error: no test specified\" && exit 1"
   },
