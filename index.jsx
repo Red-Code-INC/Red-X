@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native-web';  // For web compatibility
-import App from './App.web';
+import App from './App';
 
 alert("TEST");
 
